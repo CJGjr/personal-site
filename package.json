@@ -1,0 +1,35 @@
+{
+    "name": "personal-site",
+    "private": true,
+    "description": "Personal website for @CJGerena",
+    "version": "0.1.0",
+    "author": "Casey Gerena <@CJGerena>",
+    "dependencies": {
+      "gatsby": "^5.0.1",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+    },
+    "keywords": [
+      "gatsby"
+    ],
+    "license": "0BSD",
+    "scripts": {
+      "build": "gatsby build",
+      "develop": "gatsby develop --host 0.0.0.0",
+      "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+      "start": "npm run develop",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean",
+      "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    },
+    "bugs": {
+      "url": "https://github.com/gatsbyjs/gatsby/issues"
+    }
+  }
+  
