@@ -4,5 +4,7 @@ module.exports = {
         author: `Casey Gerena (CJ)`,
         description: `Hey this is my first site, sort of.`
     },
-    plugins: []
+    plugins: [
+        'gatsby-plugin-postcss'
+    ]
 }

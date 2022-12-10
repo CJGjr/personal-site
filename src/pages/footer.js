@@ -8,12 +8,8 @@ const FooterPage = () => {
 
             <h1>Footer</h1>
             {/* This is how you build a footer. */}
-            <footer>
-                <div>
-                    {/* <p>Hey this is inside a `div` tag</p>
-                    <h2>Work History</h2>
-                    <p>Job #1</p>
-                    <p>Job #2</p> */}
+            <footer className="bg-red">
+                <div className="bg-red ">
                     <nav>
                         <Link to='/'>Home</Link>
                         <Link to='/about'>About</Link>
