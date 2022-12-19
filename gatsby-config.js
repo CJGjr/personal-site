@@ -5,6 +5,9 @@ module.exports = {
         description: `Hey this is my first site, sort of.`
     },
     plugins: [
-        'gatsby-plugin-postcss'
+        'gatsby-plugin-postcss',
+        `gatsby-plugin-image`,
+        `gatsby-plugin-sharp`,
+        `gatsby-transformer-sharp`, // Needed for dynamic images
     ]
 }
